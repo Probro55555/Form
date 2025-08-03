@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form action="/my-form" method="post">
+    <div class="almighty">
+    <img class="display" src="halie-west-25xggax4bSA-unsplash.jpg"/>
+    <div class="align">
+        <div class="first">
+            This is not a real form. It is just a sample form!!! My name is Lorem ipsum doler stat balh alef gimel dat vav...
+        </div> 
+        <div class="second"> 
+            <h2> Let's do this!!!</h2>
+            <div class="blah">
+            <fieldset>
+                <legend>First name</legend>
+                <label for="first_name">
+                    <input type="text" id="first_name" name="name1" required />
+                </label>
+            </fieldset>
+            
+            <fieldset>
+                <legend> Last Name</legend>
+                <label for="last_name">
+                    <input type="text" id="last_name" name="name2" required />
+                </label>
+            </fieldset>
+            <fieldset>
+                <legend> Email </legend>
+                <label for="email">
+                    <input type="email" id="email" name="name3" required />
+                </label>
+            </fieldset>
+
+            <fieldset>
+                <legend> Phone Number</legend>
+                <label for="phone_no">
+                    <input type="tel" id="phone_no" name="num1" required/>
+                </label>
+            </fieldset>
+
+            <fieldset>
+                <legend> Password</legend>
+                <label for="password">
+                    <input type="password" id="password" name="pwd1" pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[^a-zA-Z\d]).{7,10}$" 
+                    title="Please follow the following constraints: minimum 7 characters and maximum 10, minimum one uppercase letter, minimum 1 lowercase letter, 1 special character and 1 number"
+                    required /> 
+                </label>
+            </fieldset>
+
+            <fieldset>
+                <legend> Confirm password </legend>
+                <label for="req_password">
+                    <input type="password" id="req_password" name="pwd2" pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[^a-zA-Z\d]).{7,10}$" 
+                    title="Please follow the following constraints: minimum 7 characters and maximum 10, minimum one uppercase letter, minimum 1 lowercase letter, 1 special character and 1 number"
+                    required /> 
+                </label>
+
+
+            </fieldset>
+            </div>
+
+        </div>
+
+        <div class="third">
+            <button type="submit">Create Account</button>
+            <p>
+                Already have an account? <a href="/klj">Log in </a>
+            </p>
+
+
+        </div>
+
+    </div>
+    </div>
+    </form>
+</body>
+</html>
